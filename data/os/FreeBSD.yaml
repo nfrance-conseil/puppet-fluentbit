@@ -8,3 +8,5 @@ fluentbit::pipelines_dir: pipelines
 fluentbit::scripts_dir: lua-scripts
 fluentbit::data_dir: /var/db/fluent-bit
 fluentbit::storage_path: /var/spool/fluent-bit
+# By default, on FreeBSD fluent-bit run as nobody
+fluentbit::config_folder_mode: 0755
