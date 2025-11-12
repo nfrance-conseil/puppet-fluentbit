@@ -96,6 +96,12 @@
 # @param config_folder_mode
 #   File mode to apply folders managed by the module
 #
+# @param data_folder_owner
+#   Owner for data_dir and storage_path
+#
+# @param data_folder_group
+#   Group for data_dir and storage_path
+#
 # @param storage_path
 #   Set an optional location in the file system to store streams and chunks of data.
 #   If this parameter is not set, Input plugins can only use in-memory buffering.
@@ -257,6 +263,8 @@ class fluentbit (
   String                           $config_file,
   Stdlib::Filemode                 $config_file_mode,
   Stdlib::Filemode                 $config_folder_mode,
+  String                           $data_folder_owner,
+  String                           $data_folder_group,
   Integer                          $flush,
   Integer                          $grace,
   Boolean                          $daemon,
