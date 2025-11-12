@@ -10,3 +10,5 @@ fluentbit::data_dir: /var/db/fluent-bit
 fluentbit::storage_path: /var/spool/fluent-bit
 # By default, on FreeBSD fluent-bit run as nobody
 fluentbit::config_folder_mode: '0755'
+fluentbit::data_folder_owner: 'nobody'
+fluentbit::data_folder_group: 'nogroup'
