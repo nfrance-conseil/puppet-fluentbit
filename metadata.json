@@ -70,6 +70,13 @@
         "22.04",
         "24.04"
       ]
+    },
+    {
+      "operatingsystem": "FreeBSD",
+      "operatingsystemrelease": [
+        "14.3",
+        "13.5"
+      ]
     }
   ],
   "requirements": [

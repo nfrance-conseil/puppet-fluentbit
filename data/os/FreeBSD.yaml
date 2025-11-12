@@ -1,0 +1,10 @@
+---
+fluentbit::manage_package_repo: false
+fluentbit::package_name: fluent-bit
+fluentbit::service_restart_command: service fulent-bit restart
+fluentbit::binary_file: /usr/local/bin/fluent-bit
+fluentbit::config_dir: /usr/local/etc/fluent-bit/
+fluentbit::pipelines_dir: pipelines
+fluentbit::scripts_dir: lua-scripts
+fluentbit::data_dir: /var/db/fluent-bit
+fluentbit::storage_path: /var/db/fluent-bit
