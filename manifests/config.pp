@@ -96,8 +96,8 @@ class fluentbit::config (
   if $fluentbit::manage_data_dir {
     file { $fluentbit::data_dir:
       ensure => directory,
-      owner  =>  $fluentbit::data_folder_owner,
-      owner  =>  $fluentbit::data_folder_group,
+      owner  => $fluentbit::data_folder_owner,
+      group  => $fluentbit::data_folder_group,
       mode   => $fluentbit::config_folder_mode,
     }
   }
@@ -106,7 +106,7 @@ class fluentbit::config (
     file { $fluentbit::storage_path:
       ensure => directory,
       owner  => $fluentbit::data_folder_owner,
-      owner  => $fluentbit::data_folder_group,
+      group  => $fluentbit::data_folder_group,
       mode   => $fluentbit::config_folder_mode,
     }
   }
