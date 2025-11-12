@@ -7,4 +7,4 @@ fluentbit::config_dir: /usr/local/etc/fluent-bit/
 fluentbit::pipelines_dir: pipelines
 fluentbit::scripts_dir: lua-scripts
 fluentbit::data_dir: /var/db/fluent-bit
-fluentbit::storage_path: /var/db/fluent-bit
+fluentbit::storage_path: /var/spool/fluent-bit
