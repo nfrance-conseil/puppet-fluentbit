@@ -26,6 +26,7 @@ fluentbit::config_file: 'fluent-bit'
 fluentbit::config_file_mode: '0644'
 fluentbit::data_folder_owner: 'root'
 fluentbit::data_folder_group: 'wheel'
+fluentbit::config_folder_mode: '0755'
 fluentbit::flush: 5
 fluentbit::grace: 5
 fluentbit::daemon: false
