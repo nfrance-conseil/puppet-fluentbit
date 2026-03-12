@@ -1,7 +1,7 @@
 ---
 fluentbit::manage_package_repo: false
 fluentbit::package_name: fluent-bit
-fluentbit::service_restart_command: service fulent-bit restart
+fluentbit::service_restart_command: service fluent-bit restart
 fluentbit::binary_file: /usr/local/bin/fluent-bit
 fluentbit::config_dir: /usr/local/etc/fluent-bit/
 fluentbit::pipelines_dir: pipelines
